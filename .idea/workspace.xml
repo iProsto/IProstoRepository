@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a449f6b-56a0-470e-8a79-bcaf7696fd40" name="Default Changelist" comment="">
+    <list default="true" id="3a449f6b-56a0-470e-8a79-bcaf7696fd40" name="Default Changelist" comment="Change bind method js scripts to index.html: now connect all scripts with &lt;script&gt; tag in index.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Resources.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Simulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Simulator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/Time.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Time.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/People.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/People.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1mCvRhFK9HzOYLNdAtupHLREqRF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,8 +80,17 @@
       <updated>1609010381729</updated>
       <workItem from="1609010382917" duration="10191000" />
       <workItem from="1609020629957" duration="960000" />
-      <workItem from="1609062570422" duration="256000" />
+      <workItem from="1609062570422" duration="2077000" />
+      <workItem from="1609068816374" duration="4864000" />
     </task>
+    <task id="LOCAL-00001" summary="Change bind method js scripts to index.html: now connect all scripts with &lt;script&gt; tag in index.html">
+      <created>1609063011729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609063011729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,56 +106,69 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change bind method js scripts to index.html: now connect all scripts with &lt;script&gt; tag in index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change bind method js scripts to index.html: now connect all scripts with &lt;script&gt; tag in index.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1378" height="172" key="GridCell.Tab.0.bottom" timestamp="1609021590398">
+    <state x="430" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609069070001">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.0.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.0.center" timestamp="1609021590398">
+    <state x="430" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1400.1010@0.0.1400.1010" timestamp="1609069070001" />
+    <state width="1378" height="572" key="GridCell.Tab.0.bottom" timestamp="1609073688905">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.0.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.0.left" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.0.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688905" />
+    <state width="1378" height="572" key="GridCell.Tab.0.center" timestamp="1609073688905">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.0.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.0.right" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.0.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688905" />
+    <state width="1378" height="572" key="GridCell.Tab.0.left" timestamp="1609073688905">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.0.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.1.bottom" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.0.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688905" />
+    <state width="1378" height="572" key="GridCell.Tab.0.right" timestamp="1609073688905">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.1.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.1.center" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.0.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688905" />
+    <state width="1378" height="572" key="GridCell.Tab.1.bottom" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.1.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.1.left" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.1.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.1.center" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.1.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.1.right" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.1.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.1.left" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.1.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.2.bottom" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.1.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.1.right" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.2.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.2.center" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.1.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.2.bottom" timestamp="1609073688848">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.2.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.2.left" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.2.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688848" />
+    <state width="1378" height="572" key="GridCell.Tab.2.center" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.2.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
-    <state width="1378" height="172" key="GridCell.Tab.2.right" timestamp="1609021590398">
+    <state width="1378" height="572" key="GridCell.Tab.2.center/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.2.left" timestamp="1609073688847">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1378" height="172" key="GridCell.Tab.2.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609021590398" />
+    <state width="1378" height="572" key="GridCell.Tab.2.left/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state width="1378" height="572" key="GridCell.Tab.2.right" timestamp="1609073688847">
+      <screen x="0" y="0" width="1400" height="1010" />
+    </state>
+    <state width="1378" height="572" key="GridCell.Tab.2.right/0.0.1400.1010@0.0.1400.1010" timestamp="1609073688847" />
+    <state x="292" y="236" key="Vcs.Push.Dialog.v2" timestamp="1609063021041">
+      <screen x="0" y="0" width="1400" height="1010" />
+    </state>
+    <state x="292" y="236" key="Vcs.Push.Dialog.v2/0.0.1400.1010@0.0.1400.1010" timestamp="1609063021041" />
     <state x="363" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1609016852170">
       <screen x="0" y="0" width="1400" height="1010" />
     </state>

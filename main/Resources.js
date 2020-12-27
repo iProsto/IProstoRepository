@@ -1,6 +1,5 @@
 "use strict";
 class Resources {
-// export class Resources {
 
     #happiness; //[0, 100], in percent
     #balance; //[0, infinity), in money char

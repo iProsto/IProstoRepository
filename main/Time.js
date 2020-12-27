@@ -53,4 +53,12 @@ class Time {
     string() {
         return 'Year: ' + this.#yearCounter + '\t Month: ' + this.#monthCounter + '\t Week: ' + this.#weekCounter;
     }
+
+    static yearToWeek(years){
+        return years * 12 * 4;
+    }
+
+    static monthToWeek(month){
+        return month * 4;
+    }
 }
