@@ -1,8 +1,9 @@
 "use strict";
-import {Resources} from "./Resources.js";
-import {Time} from "./Time.js";
+// import {Resources} from "./Resources.js";
+// import {Time} from "./Time.js";
 
-export class Simulator {
+class Simulator {
+// export class Simulator {
 
     #resources;
     #time;

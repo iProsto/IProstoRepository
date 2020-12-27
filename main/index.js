@@ -1,8 +1,9 @@
 "use strict";
 
-import {Simulator} from './Simulator.js';
+// import {Simulator} from './Simulator.js';
 
-export function simulate() {
+function simulate() {
+// export function simulate() {
     let simulator = new Simulator();
     simulator.start((res, time) => {
         console.log('\t\t[Year callback]: Year: ' + time.year());

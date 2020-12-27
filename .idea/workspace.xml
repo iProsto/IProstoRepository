@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a449f6b-56a0-470e-8a79-bcaf7696fd40" name="Default Changelist" comment="" />
+    <list default="true" id="3a449f6b-56a0-470e-8a79-bcaf7696fd40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Simulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Simulator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Time.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/Time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +38,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1mCvRhFK9HzOYLNdAtupHLREqRF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,11 +72,23 @@
       <updated>1609010381729</updated>
       <workItem from="1609010382917" duration="10191000" />
       <workItem from="1609020629957" duration="960000" />
+      <workItem from="1609062570422" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1378" height="172" key="GridCell.Tab.0.bottom" timestamp="1609021590398">

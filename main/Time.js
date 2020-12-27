@@ -1,6 +1,7 @@
 "use strict";
 
-export class Time {
+class Time {
+// export class Time {
 
     #yearCounter;
     #monthCounter;
